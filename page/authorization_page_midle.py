@@ -1,18 +1,28 @@
-# from selene import browser, by, command, have
-#
-#
-# class RegistrationPage:
-#
-#     def open(self):
-#         browser.open('https://decathlons.ru/')
-#
-#     def fill_name(self, name):
-#         browser.element('#firstName').type(name)
-#
-#     def fill_last_name(self, lastname):
-#         browser.element('#lastName').type(lastname)
-#
-#     def fill_email(self, email):
+from selene import browser, have
+
+
+class RegistrationPage:
+    pass
+
+
+class RegistrationPage:
+
+    def open(self):
+        browser.open('/client_account/login')
+
+    def fill_email(self, email):
+        browser.element('#email').type(email)
+
+    def fill_password(self, password):
+        browser.element('#password').type(password)
+
+    def fill_contact_details(self, contact_name, contract_email):
+        browser.element('#client_name').should(have.value(contact_name))
+        browser.element('#client_email').should(have.value(contract_email))
+
+    registration_page = RegistrationPage()
+
+#     def authorized_user_with(self, email):
 #         browser.element('#userEmail').type(email)
 #
 #     def fill_gender(self):
@@ -65,4 +75,3 @@
 #                                                                          ))
 #
 #
-# registration_page = RegistrationPage()
