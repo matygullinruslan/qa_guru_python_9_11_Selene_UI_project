@@ -18,7 +18,7 @@ class AuthorizationPage:
         browser.element('#client_email').should(have.value(contract_email))
 
 
-authorizationpage = AuthorizationPage
+authorization_page = AuthorizationPage()
 
 #     def authorized_user_with(self, email):
 #         browser.element('#userEmail').type(email)
