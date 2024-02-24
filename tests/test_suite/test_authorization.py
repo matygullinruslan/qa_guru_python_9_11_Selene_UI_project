@@ -1,19 +1,19 @@
 import allure
-from page.authorization_page_midle import RegistrationPage
+from page.authorization_page_midle import authorizationpage
 
 from selene import browser, have
 
 
-def test_test_authorization_midl():
+def test_authorization_midl():
     with allure.step('Открываем страницу авторизации'):
-        RegistrationPage.open()
+        authorizationpage.open()
 
     with (allure.step('Вводим логин и пароль')):
-        RegistrationPage.fill_email('rusel_21@mail.ru')
-        RegistrationPage.fill_password('qwerty123456')
+        authorizationpage.fill_email('rusel_21@mail.ru')
+        authorizationpage.fill_password('qwerty123456')
 
     with allure.step('Проверяем что пользователь авторизовался'):
-        RegistrationPage.fill_contact_details('Руслан Матыгуллин', 'rusel_21@mail.ru')
+        authorizationpage.fill_contact_details('Руслан Матыгуллин', 'rusel_21@mail.ru')
 
 
 # def test_authorization():

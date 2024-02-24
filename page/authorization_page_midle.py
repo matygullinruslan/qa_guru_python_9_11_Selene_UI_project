@@ -1,11 +1,8 @@
 from selene import browser, have
 
 
-class RegistrationPage:
+class AuthorizationPage:
     pass
-
-
-class RegistrationPage:
 
     def open(self):
         browser.open('/client_account/login')
@@ -20,7 +17,8 @@ class RegistrationPage:
         browser.element('#client_name').should(have.value(contact_name))
         browser.element('#client_email').should(have.value(contract_email))
 
-    registration_page = RegistrationPage()
+
+authorizationpage = AuthorizationPage
 
 #     def authorized_user_with(self, email):
 #         browser.element('#userEmail').type(email)
