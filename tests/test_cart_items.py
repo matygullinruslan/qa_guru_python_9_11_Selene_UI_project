@@ -11,14 +11,11 @@ def test_added_cart_items():
 
 def test_delete_cart_items():
     browser.open('/')
-    #browser.element('[href="/collection/britie"]').click()
     browser.element('[href="/collection/britie"]').hover()
     browser.element('[href="/collection/britie-sredstva-dlya-britya"]').click()
     browser.element('[href="/product/care143-loson-posle-britya-proraso-sandal-sandal"]').click()
     browser.element('.add-cart-counter').click()
     browser.element('.header__control-text').click()
-    #browser.element('.js-item-delete').click()
     browser.element('.text-center').should(have.text('Ваша корзина пуста'))
-    ...
 
 
