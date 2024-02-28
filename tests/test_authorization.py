@@ -1,25 +1,27 @@
 import allure
-# from page.authorization_page_midle import authorization_page
-
+from page.authorization_page_midle import authorization_page
 from selene import browser, have
 
 
 def test_successful_authorization():
     with allure.step('Открываем страницу регистрации'):
-        browser.open('/client_account/login')
+        authorization_page.open()
 
-    with allure.step('Заполняем форму авторизации'):
-        browser.element('#email').type('rusel_21@mail.ru')
-        browser.element('#password').type('qwerty123456')
+    with allure.step('Заполняем данные'):
+        authorization_page.fill_email('rusel_21@mail.ru')
+        authorization_page.fill_password('qwerty123456')
 
     with allure.step('Отправляем данные'):
-        browser.element('.co-button').click()
+        authorization_page.fill_entrance()
 
-    with allure.step('Открываем страницу регистрации'):
-        browser.element('[href="/client_account/contacts"]').click()
+    with allure.step('Переходим на страницу с контактными данными'):
+        authorization_page.fill_personal_area()
 
     with allure.step('Проверяем, что пользователь авторизован'):
-        browser.element('#client_name').should(have.value('Руслан Матыгуллин'))
+        authorization_page.should_contact_details(
+            'rusel_21@mail.ru',
+        )
+
 
 def test_unsuccessful_authorization():
     browser.open('/client_account/login')
