@@ -1,6 +1,8 @@
 from selene import browser, have, be, by
-from page.test_cart_items_page import test_cart_page
+from page.cart_items_page import test_cart_page
 import allure
+from time import sleep
+
 
 def test_added_cart_items():
     test_cart_page.open()
@@ -13,11 +15,15 @@ def test_delete_cart_items():
     test_cart_page.open()
     #выбор из выпадающего списка категории товара
     test_cart_page.choice_item()
+    sleep(7)
     test_cart_page.added_cart()
+    sleep(7)
     test_cart_page.entrance_cart()
+    sleep(7)
     test_cart_page.delete_item()
+    sleep(7)
     test_cart_page.should_cart('Ваша корзина пуста')
-
+...
    #
    #  browser.element('[href="/collection/britie"]').hover()
    #  browser.element('[href="/collection/britie-sredstva-dlya-britya"]').click()
