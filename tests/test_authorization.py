@@ -1,6 +1,5 @@
 import allure
 from page.authorization_page import authorization_page
-from selene import browser, have
 
 
 def test_successful_authorization():
