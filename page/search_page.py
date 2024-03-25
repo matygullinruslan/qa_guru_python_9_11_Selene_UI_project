@@ -1,27 +1,32 @@
 from selene import browser, have, be, by
+import allure
 
 
 class Searchpage:
+    with allure.step('Открываем сайт'):
+        def open(self):
+            browser.open('/')
 
-    def open(self):
-        browser.open('/')
+    with allure.step('Вводим в поисковой строке товар'):
+        def search_item(self, item):
+            browser.element(by.name('q')).should(be.blank).type(item).press_enter()
 
-    def search_item(self, item):
-        browser.element(by.name('q')).should(be.blank).type(item).press_enter()
+    with allure.step('Проверяем, что товар найден'):
+        def should_item(self, bag):
+            browser.element('.product-preview__title').should(
+                have.text(bag))
 
-    def should_item(self, bag):
-        browser.element('.product-preview__title').should(
-            have.text(bag))
+    with allure.step('Проверяем, что товар найден по артиклу'):
+        def should_articles(self, articles):
+            browser.element('.product-preview__title').should(
+                have.text(articles))
 
-    def should_articles(self, articles):
-        browser.element('.product-preview__title').should(
-            have.text(articles))
-
-    def should_incorrect_search(self, text):
-        browser.element('.empty-catalog-message').should(have.text(text))
+    with allure.step('Проверяем, что товар не найден'):
+        def should_incorrect_search(self, text):
+            browser.element('.empty-catalog-message').should(have.text(text))
 
 
-search_page = Searchpage
+search_page = Searchpage()
 
 #     def test_search_items():
 #         browser.open('/')
