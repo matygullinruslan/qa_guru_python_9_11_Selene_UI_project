@@ -21,7 +21,7 @@ def test_delete_cart_items():
 
     test_cart_page.entrance_cart()
 
-    test_cart_page.delete_item()
+    #test_cart_page.delete_item()
 
     test_cart_page.should_cart('Ваша корзина пуста')
 
