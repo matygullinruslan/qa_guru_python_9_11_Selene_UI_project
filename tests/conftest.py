@@ -31,34 +31,34 @@ def setup_browser(request):
     browser.config.base_url = 'https://boroda.land'
     browser.config.window_width = 1900
     browser.config.window_height = 1080
-    Options()
+    options = Options()
 
 
-selenoid_capabilities = {
-    "browserName": "chrome",
-    "browserVersion": "100.0",
-    "selenoid:options": {
-        "enableVNC": True,
-        "enableVideo": True
+    selenoid_capabilities = {
+        "browserName": "chrome",
+        "browserVersion": "100.0",
+        "selenoid:options": {
+            "enableVNC": True,
+            "enableVideo": True
+        }
     }
-}
-options.capabilities.update(selenoid_capabilities)
+    options.capabilities.update(selenoid_capabilities)
 
-login = os.getenv('LOGIN')
-password = os.getenv('PASSWORD')
-remote_browser_url = os.getenv('REMOTE_BROWSER_URL')
+    login = os.getenv('LOGIN')
+    password = os.getenv('PASSWORD')
+    remote_browser_url = os.getenv('REMOTE_BROWSER_URL')
 
-driver = webdriver.Remote(
-    command_executor=f"https://{login}:{password}@{remote_browser_url}",
-    options=options
-)
+    driver = webdriver.Remote(
+        command_executor=f"https://{login}:{password}@{remote_browser_url}",
+        options=options
+    )
 
-browser.config.driver = driver
+    browser.config.driver = driver
+    yield browser
 
+    attach.add_screenshot(browser)
+    attach.add_logs(browser)
+    attach.add_html(browser)
+    attach.add_video(browser)
 
-attach.add_screenshot(browser)
-attach.add_logs(browser)
-attach.add_html(browser)
-attach.add_video(browser)
-
-browser.quit()
+    browser.quit()
