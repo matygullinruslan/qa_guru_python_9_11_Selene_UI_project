@@ -11,7 +11,6 @@ from dotenv import load_dotenv
 def load_env():
     load_dotenv()
 
-
 login = os.getenv('LOGIN')
 password = os.getenv('PASSWORD')
 remote_browser_url = os.getenv('REMOTE_BROWSER_URL')
