@@ -11,9 +11,10 @@ from dotenv import load_dotenv
 def load_env():
     load_dotenv()
 
-login = os.getenv('LOGIN')
-password = os.getenv('PASSWORD')
-remote_browser_url = os.getenv('REMOTE_BROWSER_URL')
+
+login = os.getenv('user1')
+password = os.getenv('1234')
+remote_browser_url = os.getenv('selenoid.autotests.cloud/wd/hub')
 
 
 @pytest.fixture(scope='function', autouse=True)
