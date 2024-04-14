@@ -43,4 +43,4 @@ search_page = Searchpage()
 #     def test_incorrect_search():
 #         browser.open('/')
 #         browser.element(by.name('q')).should(be.blank).type('rj;fyst rhnrb').press_enter()
-#         browser.element('.empty-catalog-message').should(have.text('По вашему запросу ничего не найдено'))
+#         browser.element('.empty-catalog-message').should(have.text('По вашему запросу ничего неe найдено'))
