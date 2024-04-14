@@ -24,17 +24,17 @@
 ### Проект реализован с использованием:
 
 <p  align="left">
-<code><img width="5%" title="python" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"></code>
-<code><img width="5%" title="selene" src="https://github.com/MDN78/MDN78/blob/main/assets/selene.png"></code>
-<code><img width="5%" title="selenium" src="https://github.com/MDN78/MDN78/blob/main/assets/selenium.png"></code>
-<code><img width="5%" title="pytest" src="https://github.com/MDN78/MDN78/blob/main/assets/pytest.png"></code>
-<code><img width="5%" title="selenoid" src="https://github.com/MDN78/MDN78/blob/main/assets/selenoid.png"></code>
-<code><img width="5%" title="jenkins" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg"></code>
-<code><img width="5%" title="allure" src="https://github.com/MDN78/MDN78/blob/main/assets/allure_report.png"></code>
-<code><img width="5%" title="alluretestops" src="https://github.com/MDN78/MDN78/blob/main/assets/allure_testops.png"></code>
-<code><img width="5%" title="github" src="https://github.com/MDN78/MDN78/blob/main/assets/github.png"></code>  
-<code><img width="5%" title="telegram" src="assets/tg.png"></code>   
-<code><img width="5%" title="pycharm" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pycharm/pycharm-original.svg"></code>  
+<code><img width="5%" title="python" src="https://github.com/matygullinruslan/qa_guru_python_9_11_Selene_UI_project/blob/main/assets/python.png"></code>
+<code><img width="5%" title="selene" src="https://github.com/matygullinruslan/qa_guru_python_9_11_Selene_UI_project/blob/main/assets/selene.png"></code>
+<code><img width="5%" title="selenium" src="https://github.com/matygullinruslan/qa_guru_python_9_11_Selene_UI_project/blob/main/assets/selenium.png"></code>
+<code><img width="5%" title="pytest" src="https://github.com/matygullinruslan/qa_guru_python_9_11_Selene_UI_project/blob/main/assets/pytest.png"></code>
+<code><img width="5%" title="selenoid" src="https://github.com/matygullinruslan/qa_guru_python_9_11_Selene_UI_project/blob/main/assets/selenoid.png"></code>
+<code><img width="5%" title="jenkins" src="https://github.com/matygullinruslan/qa_guru_python_9_11_Selene_UI_project/blob/main/assets/jenkins.png"></code>
+<code><img width="5%" title="allure" src="https://github.com/matygullinruslan/qa_guru_python_9_11_Selene_UI_project/blob/main/assets/allure_report.png"></code>
+<code><img width="5%" title="alluretestops" src="https://github.com/matygullinruslan/qa_guru_python_9_11_Selene_UI_project/blob/main/assets/allure_testops.png"></code>
+<code><img width="5%" title="github" src="https://github.com/matygullinruslan/qa_guru_python_9_11_Selene_UI_project/blob/main/assets/github.png"></code>  
+<code><img width="5%" title="telegram" src="https://github.com/matygullinruslan/qa_guru_python_9_11_Selene_UI_project/blob/main/assets/telegram.png"></code>   
+<code><img width="5%" title="pycharm" src="https://github.com/matygullinruslan/qa_guru_python_9_11_Selene_UI_project/blob/main/assets/pycharml.png"></code>  
 
 
 > Для полноценного прохождения всех тестов должен быть или тестовый аккаунт на сайте ***Автодок*** или реальный, данные
