@@ -23,7 +23,7 @@ class Cartpage:
         def choice_item(self):
             browser.element('[href="/collection/britie"]').hover()
             browser.element('[href="/collection/britie-sredstva-dlya-britya"]').click()
-            browser.element('[href="/product/care143-loson-posle-britya-proraso-sandal-sandal"]').click()
+            browser.element('[href="/product/raz400111-krem-dlya-britya-150ml-evkalipt"]').click()
 
     with allure.step('Добавление товара в корзину'):
         def added_cart(self):
