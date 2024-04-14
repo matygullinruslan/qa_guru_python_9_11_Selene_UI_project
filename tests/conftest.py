@@ -12,7 +12,6 @@ def load_env():
     load_dotenv()
 
 
-
 @pytest.fixture(scope='function', autouse=True)
 def setup_browser(request):
     browser.config.base_url = 'https://boroda.land'
