@@ -91,11 +91,11 @@ allure serve
 5. Нажать кнопку `Build`
 6. Результат запуска сборки можно посмотреть в отчёте Allure
 
-![image](assets/jenkins.png)
+
 
 ----
 
-### <img width="3%" title="Allure report" src="https://github.com/MDN78/MDN78/blob/main/assets/allure_report.png"> Allure отчет
+### <img width="3%" title="Allure report" src="https://github.com/matygullinruslan/qa_guru_python_9_11_Selene_UI_project/blob/main/assets/allure_report.png"> Allure отчет
 
 ![image](assets/allure_report.PNG)
 Отчет позволяет получить детальную информацию по все шагам тестов, включая скриншоты и log - файлы
