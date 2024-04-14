@@ -37,8 +37,8 @@
 <code><img width="5%" title="pycharm" src="https://github.com/matygullinruslan/qa_guru_python_9_11_Selene_UI_project/blob/main/assets/pycharml.png"></code>  
 
 
-> Для полноценного прохождения всех тестов должен быть или тестовый аккаунт на сайте ***Автодок*** или реальный, данные
-> которого нужно будет указывать в файле
+> Для полноценного прохождения всех тестов должно быть  зарегистрировано два аккаунта. Данные
+> которых необходимо указать в файле
 `.env`
 >
 Для написания UI-тестов используется фреймворк `Selene`, современная «обёртка» вокруг `Selenium WebDriver`
@@ -51,10 +51,9 @@
 
 ----
 
-### <img width="3%" title="pc" src="assets/pc.jpg"> Локальный запуск
+### Локальный запуск
 
-Необходимо создать файл `.env` и заполнить его актуальными тестовыми параметрами.  
-Пример заполнения файла указан в файле `.env.example`
+Необходимо создать файл `.env` и заполнить его актуальными тестовыми параметрами.
 
 1) Скачать проект и открыть в IDE
 2) Для локального запуска необходимо выполнить команду в терминале:
@@ -76,24 +75,11 @@ allure serve
 
 ### <img width="3%" title="Jenkins" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg"> Удаленный запуск автотестов выполняется на сервере Jenkins
 
-> <a target="_blank" href="https://jenkins.autotests.cloud/job/C10_MDN782007_autodoc_test_project/">Ссылка на проект в
+> <a target="_blank" href="https://jenkins.autotests.cloud/job/qa_guru_python_9_11_Selene_UI_project/">Ссылка на проект в
 > Jenkins</a>
 
 ----
 
-### Параметры сборки:
-
-`ENVIRONMENT` - определение среды сборки, по умолчанию `PROD`  
-`BROWSER NAME` - выбор браузера  
-`BROWSER VERSION` - выбор версии браузера. По умолчанию выбран браузер Chrome, версия 100  
-`COMMENT` - комментарий для получателя уведомления в Телеграмм
-
-Версии браузеров, используемые в данной сборке в `Jenkins` и `Selenoid`:
-
-| Chrome | Firefox |
-|--------|---------|
-| 100.0  | 98.0    |
-| 99.0   | 97.0    |
 
 #### Для запуска автотестов в Jenkins
 
@@ -105,7 +91,7 @@ allure serve
 5. Нажать кнопку `Build`
 6. Результат запуска сборки можно посмотреть в отчёте Allure
 
-![image](assets/jenkins_main_page.PNG)
+![image](assets/jenkins.png)
 
 ----
 
