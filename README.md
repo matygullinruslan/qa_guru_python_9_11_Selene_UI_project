@@ -5,7 +5,7 @@
 
 > [Сайт BORODA.LAND](https://boroda.land/)
 
-![](https://github.com/MDN78/qa_guru_python_10_15/blob/master/assets/autodoc_main_page.PNG)
+![](https://github.com/matygullinruslan/qa_guru_python_9_11_Selene_UI_project/blob/main/assets/site.png)
 ----
 
 ## Список проверок, реализованных в автотестах:
