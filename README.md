@@ -100,13 +100,8 @@ allure serve
 ![image](assets/Allure_Report_test.png)
 Отчет позволяет получить детальную информацию по все шагам тестов, включая скриншоты и log - файлы
 
-![image](assets/allure_report_suits.PNG)
 
-### <img width="3%" title="Allure testops" src="https://github.com/MDN78/MDN78/blob/main/assets/allure_testops.png"> Allure TestOps отчет
-
-![image](assets/allure_testops_report.PNG)   
-
-### <img width="3%" title="Allure report" src="https://github.com/MDN78/MDN78/blob/main/assets/selenoid.png"> Видео прохождения теста:
+### <img width="3%" title="Allure report" src="https://github.com/matygullinruslan/qa_guru_python_9_11_Selene_UI_project/blob/main/assets/authorization.gif"> Видео прохождения теста:
 
 Видеозапись каждого теста генерируется с помощью `Selenoid` после успешного запуска контейнера c тестами в `Docker`.
 
