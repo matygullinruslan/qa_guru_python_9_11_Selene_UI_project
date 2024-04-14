@@ -107,7 +107,9 @@ allure serve
 
 ![image](assets/authorization.gif)
 
-### <img width="3%" title="Allure report" src="assets/tg.png"> Получение уведомлений о прохождении тестов в Telegram
+### <img width="3%" title="Allure report" src="assets/telegram.png"> Получение уведомлений о прохождении тестов в Telegram
+
+![image](assets/telegram_report.png)
 
 После завершения сборки специальный Telegram-бот отправляет сообщение с отчетом.  
 
