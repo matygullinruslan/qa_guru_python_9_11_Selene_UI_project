@@ -26,8 +26,8 @@ class AuthorizationPage:
                     browser.element('#client_email').should(have.value(email))
 
                 with allure.step('Проверяем, что пользователь не авторизован'):
-                        def should_check_details(self, danger):
-                            browser.element('.co-notice--danger').should(have.text(danger))
+                    def should_check_details(self, danger):
+                        browser.element('.co-notice--danger').should(have.text(danger))
 
 
 authorization_page = AuthorizationPage()
