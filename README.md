@@ -97,7 +97,7 @@ allure serve
 
 ### <img width="3%" title="Allure report" src="https://github.com/matygullinruslan/qa_guru_python_9_11_Selene_UI_project/blob/main/assets/allure_report.png"> Allure отчет
 
-![image](assets/allure_report.PNG)
+![image](assets/Allure_Report_test.png)
 Отчет позволяет получить детальную информацию по все шагам тестов, включая скриншоты и log - файлы
 
 ![image](assets/allure_report_suits.PNG)
