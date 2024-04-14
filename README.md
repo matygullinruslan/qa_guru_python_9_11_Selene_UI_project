@@ -5,7 +5,7 @@
 
 > [Сайт BORODA.LAND](https://boroda.land/)
 
-![](https://github.com/matygullinruslan/qa_guru_python_9_11_Selene_UI_project/blob/main/assets/site.png)
+![](https://github.com/matygullinruslan/qa_guru_python_9_11_Selene_UI_project/blob/main/assets/site_land.png)
 ----
 
 ## Список проверок, реализованных в автотестах:
