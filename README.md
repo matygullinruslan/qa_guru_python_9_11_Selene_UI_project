@@ -101,11 +101,11 @@ allure serve
 Отчет позволяет получить детальную информацию по все шагам тестов, включая скриншоты и log - файлы
 
 
-### <img width="3%" title="Allure report" src="https://github.com/matygullinruslan/qa_guru_python_9_11_Selene_UI_project/blob/main/assets/authorization.gif"> Видео прохождения теста:
+### <img width="3%" title="Allure report" src="https://github.com/matygullinruslan/qa_guru_python_9_11_Selene_UI_project/blob/main/assets/selenoid.png"> Видео прохождения теста:
 
 Видеозапись каждого теста генерируется с помощью `Selenoid` после успешного запуска контейнера c тестами в `Docker`.
 
-![image](assets/test_example.gif)
+![image](assets/authorization.gif)
 
 ### <img width="3%" title="Allure report" src="assets/tg.png"> Получение уведомлений о прохождении тестов в Telegram
 
