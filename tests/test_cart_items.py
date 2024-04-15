@@ -21,6 +21,3 @@ def test_delete_cart_items():
     cart_page.delete_item()
 
     cart_page.should_cart('Ваша корзина пуста')
-
-
-

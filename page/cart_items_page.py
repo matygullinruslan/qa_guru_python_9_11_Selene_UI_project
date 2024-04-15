@@ -2,7 +2,7 @@ from selene import browser, have, be, by, command
 import allure
 
 
-class Cartpage:
+class CartPage:
     with allure.step('Открываем сайт'):
         def open(self):
             browser.open('/')
@@ -46,5 +46,4 @@ class Cartpage:
                 browser.element('.text-center').should(have.text(text))
 
 
-cart_page = Cartpage()
-
+cart_page = CartPage()
