@@ -5,7 +5,6 @@ def test_new_user_registration():
     registration_page.open()
 
     registration_page.registration_form()
-
     registration_page.fill_name()
     registration_page.fill_phone()
     registration_page.fill_email()

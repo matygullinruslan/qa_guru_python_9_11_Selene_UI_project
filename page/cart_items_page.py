@@ -1,4 +1,4 @@
-from selene import browser, have, be, by
+from selene import browser, have, be, by, command
 import allure
 
 
@@ -28,16 +28,17 @@ class Cartpage:
     with allure.step('Добавление товара в корзину'):
         def added_cart(self):
             browser.element('.add-cart-counter').should(be.visible).click()
+            browser.element('.micro-alert-item').should(be.visible).should(have.text('Товар добавлен в корзину'))
 
     with allure.step('Переходим в корзину и удаляем товар'):
         def entrance_cart(self):
             browser.element('.add-cart-counter__detail-text').should(have.text('В корзине'))
             browser.element('.header__cart').click()
 
-    # with allure.step('Удаляем товар из корзины'):
-    #     def delete_item(self):
-    #         browser.element('.cart-item').should(be.visible)
-    #         browser.element('.js-item-delete').should(be.visible).click()
+    with allure.step('Удаляем товар из корзины'):
+        def delete_item(self):
+            browser.element('.cart-item').with_(timeout=5).should(be.visible)
+            browser.element('.js-item-delete').should(be.visible).perform(command.js.click())
 
         with allure.step('Проверяем, что корзина пуста'):
             def should_cart(self, text):

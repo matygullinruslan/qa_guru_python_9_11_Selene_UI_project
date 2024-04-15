@@ -18,6 +18,8 @@ class Added_page:
     with allure.step('Добавляем товар в избранное'):
         def add_to_favorites(self):
             browser.element('.icon-favorites-o').click()
+            browser.element('.micro-alert-item').should(be.visible).should(have.text('Товар добавлен в избранное'))
+
 
     with allure.step('Переходим на вкладку избранное'):
         def entrance_to_favorites(self):
@@ -27,6 +29,8 @@ class Added_page:
         def should_to_favorites(self, text):
             browser.element('.static-text').should(have.text(
             'text'))
+
+
  #тест не проходит из-за баги,
  # после добавления товара в избранное он не отображается на вкладке "Избранное"
 

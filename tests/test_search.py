@@ -1,4 +1,3 @@
-import allure
 from page.search_page import search_page
 
 
@@ -24,6 +23,12 @@ def test_incorrect_search():
     search_page.search_item('rj;fyst rhnrb')
 
     search_page.should_incorrect_search('По вашему запросу ничего не найдено')
+
+
+
+
+
+
 
 # def test_search_items():
 #     browser.open('/')
