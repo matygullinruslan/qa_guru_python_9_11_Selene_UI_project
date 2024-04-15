@@ -46,4 +46,5 @@ class Cartpage:
                 browser.element('.text-center').should(have.text(text))
 
 
-test_cart_page = Cartpage()
+cart_page = Cartpage()
+
