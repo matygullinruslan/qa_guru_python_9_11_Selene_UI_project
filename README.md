@@ -83,7 +83,7 @@ allure serve
 
 #### Для запуска автотестов в Jenkins
 
-1. Открыть <a target="_blank" href="https://jenkins.autotests.cloud/job/C10_MDN782007_autodoc_test_project/">проект</a>
+1. Открыть <a target="_blank" href="https://jenkins.autotests.cloud/job/qa_guru_python_9_11_Selene_UI_project/">проект</a>
 2. Выбрать пункт `Build with Parameters`
 3. Выбрать браузер
 4. Выбрать версию браузера
