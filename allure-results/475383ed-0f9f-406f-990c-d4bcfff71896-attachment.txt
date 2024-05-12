@@ -1,7 +1,0 @@
-{'level': 'WARNING', 'message': 'https://static.insales-cdn.com/assets/common-js/common.v2.24.72.js 0:823673 "Внимание подключена новая версия JS API InSales"', 'source': 'console-api', 'timestamp': 1715542908652}
-{'level': 'WARNING', 'message': 'https://boroda.land/client_account/login - [DOM] Found 2 elements with non-unique id #: (More info: https://goo.gl/9p2vKq) %o %o', 'source': 'recommendation', 'timestamp': 1715542908781}
-{'level': 'WARNING', 'message': 'https://boroda.land/client_account/login - Failed to create WebGPU Context Provider', 'source': 'rendering', 'timestamp': 1715542908957}
-{'level': 'WARNING', 'message': 'https://boroda.land/client_account/login - [.WebGL-0x2c2802dc7800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels', 'source': 'rendering', 'timestamp': 1715542909151}
-{'level': 'WARNING', 'message': 'https://privacy-cs.mail.ru/static/sync-loader.js 4 Failed to parse video contentType: video/ogg; codecs=theora', 'source': 'other', 'timestamp': 1715542909224}
-{'level': 'WARNING', 'message': 'https://static.insales-cdn.com/assets/common-js/common.v2.24.72.js 0:823673 "Внимание подключена новая версия JS API InSales"', 'source': 'console-api', 'timestamp': 1715542910578}
-{'level': 'WARNING', 'message': 'https://static.insales-cdn.com/assets/common-js/common.v2.24.72.js 0:823673 "Внимание подключена новая версия JS API InSales"', 'source': 'console-api', 'timestamp': 1715542911559}

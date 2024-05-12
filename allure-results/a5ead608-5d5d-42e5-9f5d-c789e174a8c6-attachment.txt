@@ -1,9 +1,0 @@
-{'level': 'SEVERE', 'message': 'https://boroda.land/ 5150:0 Uncaught ReferenceError: $ is not defined', 'source': 'javascript', 'timestamp': 1715542962120}
-{'level': 'WARNING', 'message': 'https://static.insales-cdn.com/assets/common-js/common.v2.24.72.js 0:823673 "Внимание подключена новая версия JS API InSales"', 'source': 'console-api', 'timestamp': 1715542962385}
-{'level': 'WARNING', 'message': 'https://boroda.land/ - Failed to create WebGPU Context Provider', 'source': 'rendering', 'timestamp': 1715542962692}
-{'level': 'WARNING', 'message': 'https://boroda.land/ - [.WebGL-0x37540261ff00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels', 'source': 'rendering', 'timestamp': 1715542962878}
-{'level': 'WARNING', 'message': 'https://privacy-cs.mail.ru/static/sync-loader.js 4 Failed to parse video contentType: video/ogg; codecs=theora', 'source': 'other', 'timestamp': 1715542962984}
-{'level': 'SEVERE', 'message': 'https://boroda.land/search?q=%D0%9F%D0%BE%D1%8F%D1%81%D0%BD%D0%B0%D1%8F+%D1%81%D1%83%D0%BC%D0%BA%D0%B0&lang=ru 6473:0 Uncaught ReferenceError: $ is not defined', 'source': 'javascript', 'timestamp': 1715542964404}
-{'level': 'WARNING', 'message': 'https://static.insales-cdn.com/assets/common-js/common.v2.24.72.js 0:823673 "Внимание подключена новая версия JS API InSales"', 'source': 'console-api', 'timestamp': 1715542964416}
-{'level': 'SEVERE', 'message': 'https://boroda.land/product/bag379-3-muzhskaya-sumka-na-poyas-iz-naturalnoy-kozhi-ruchnaya-rabota 5737:0 Uncaught ReferenceError: $ is not defined', 'source': 'javascript', 'timestamp': 1715542965730}
-{'level': 'WARNING', 'message': 'https://static.insales-cdn.com/assets/common-js/common.v2.24.72.js 0:823673 "Внимание подключена новая версия JS API InSales"', 'source': 'console-api', 'timestamp': 1715542965742}
