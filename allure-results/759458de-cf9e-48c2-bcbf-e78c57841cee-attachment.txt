@@ -1,7 +1,0 @@
-{'level': 'SEVERE', 'message': 'https://boroda.land/ 5150:0 Uncaught ReferenceError: $ is not defined', 'source': 'javascript', 'timestamp': 1715543022843}
-{'level': 'WARNING', 'message': 'https://static.insales-cdn.com/assets/common-js/common.v2.24.72.js 0:823673 "Внимание подключена новая версия JS API InSales"', 'source': 'console-api', 'timestamp': 1715543023083}
-{'level': 'WARNING', 'message': 'https://boroda.land/ - Failed to create WebGPU Context Provider', 'source': 'rendering', 'timestamp': 1715543023401}
-{'level': 'WARNING', 'message': 'https://boroda.land/ - [.WebGL-0x7e002759c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels', 'source': 'rendering', 'timestamp': 1715543023537}
-{'level': 'WARNING', 'message': 'https://privacy-cs.mail.ru/static/sync-loader.js 4 Failed to parse video contentType: video/ogg; codecs=theora', 'source': 'other', 'timestamp': 1715543023638}
-{'level': 'SEVERE', 'message': 'https://boroda.land/search?q=rj%3Bfyst+rhnrb&lang=ru 5620:0 Uncaught ReferenceError: $ is not defined', 'source': 'javascript', 'timestamp': 1715543024436}
-{'level': 'WARNING', 'message': 'https://static.insales-cdn.com/assets/common-js/common.v2.24.72.js 0:823673 "Внимание подключена новая версия JS API InSales"', 'source': 'console-api', 'timestamp': 1715543024454}
